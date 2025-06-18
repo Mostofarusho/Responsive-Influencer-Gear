@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Nav Bar Design  */
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 0.5fr;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav-header {
+    color: rgb(58, 58, 58);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-list-name {
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-list-search-icon {
+    font-size: 1.2rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-cart-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    /* helps with vertical alignment */
+    vertical-align: middle;
+}
+
+
+/* Start your Journey as Influencer */
+
+.influencer-journey {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 40px;
+    margin: 0 auto;
+}
+
+.influencer-journey-title {
+    color: rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.influencer-journey-description {
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.influencer-journey-button {
+    width: 196px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 50px;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.influencer-journey-image {
+    width: 575px;
+    height: 575px;
+    background-image: url("../images/Circle_design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.influencer-camera {
+    width: 100%;
+}
