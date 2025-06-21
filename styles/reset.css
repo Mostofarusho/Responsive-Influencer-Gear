@@ -1,0 +1,105 @@
+/* reset.css */
+
+
+/* 1. Reset box model and remove margin/padding */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 2. Set base font and smoothing */
+
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+
+/* 3. Set default font and background */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* 4. Remove default list styles */
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* 5. Remove default anchor styles */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* 6. Reset headings and paragraphs */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+/* 7. Remove button defaults */
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+/* 8. Remove input/textarea default styles */
+
+input,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+/* 9. Media elements */
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* 10. Table reset */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
